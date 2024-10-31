@@ -1,0 +1,65 @@
+.slider-wrapper {
+  max-width: 100%;
+  padding-bottom: 20px;
+}
+
+.slick-dots {
+  bottom: -10px;
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+  color: #262626;
+}
+
+.slick-dots li.slick-active button:before {
+  background: linear-gradient(126.89deg, #db2777 -67.19%, #f97316 203.32%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.image1 {
+  height: 60px;
+  width: 60px;
+}
+
+.image2 {
+  height: 80px;
+  width: 80px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.row {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  height: 100%;
+}
+
+.col-md-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+.col-md-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.image {
+  transition: opacity 0.3s ease;
+}
+
+.image:hover {
+  opacity: 0.5;
+}

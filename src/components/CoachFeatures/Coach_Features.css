@@ -1,0 +1,44 @@
+.hover-background {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-image 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hover-background:hover {
+  background-image: url("../../Assets/Eclipse.png");
+}
+
+.feature_heading {
+  color: #fafafa;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.row {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  height: 100%;
+}
+
+.col-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.col-1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-grow: 1;
+}
